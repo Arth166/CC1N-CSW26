@@ -20,7 +20,8 @@
         </tr>
         <tr>
             <td><label for="email">Email pessoal:</label></td>
-            <td><input type="email" id="emailpess" name="emailpess" placeholder="Digite seu email pessoal"></td>
+            <td><input type="email" id="emailpess" name="emailpess" 
+                placeholder="Digite seu email pessoal"></td>
         </tr>
         <tr>
             <td><label for="email">Email(patter):</label></td>
@@ -32,11 +33,75 @@
         </tr>
         <tr>
             <td><label for="Idade">Idade:</label></td>
-            <td><input type="number" name="idade" id="idade" placeholder="Digite sua idade" maxlength="3"></td>
+            <td><input type="number" name="idade" id="idade" 
+                placeholder="Digite sua idade" maxlength="3" size="2"required></td>
         </tr>
         <tr>
-            <td colspan="2"><label for="">Deixe um comentário:</label></td>
+            <td colspan="2"><label for="">Deixe um comentário:</label>
+                <br>
             <textarea name="comentário" cols="50" rows="15" id="id-comentario" placeholder="Digite um comentário"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Matéria de interesse</label>
+               <br>
+                <input type="checkbox" name="Backend" value="Backending">Backend
+                <br>
+                <input type="checkbox" name="Frontend" value="Frontending">Frontend
+                <br>
+                <input type="checkbox" name="Fullstack" value="Fullstack">Fullstack
+            </td>
+            <td><label for="">Tipo de Viagem:</label>
+                <br>
+                <input type="checkbox" name="negocios" value="nego">Negócios
+                <br>
+                <input type="checkbox" name="Lazer" value="Lazer">Lazer
+                <br>
+                <input type="checkbox" name="turismo" value="turi">turismo
+                <br>
+                <input type="checkbox" name="academico" value="academ">Acadêmico
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Esporte Favorito:</label>
+                <select name="Esportes" size="1>
+                    <option value="">Selecione</option>
+                    <option value="Futebol">Futebol</option>
+                    <option value="Basquete">Basquete</option>
+                    <option value="Vôlei">Vôlei</option>
+                    <option value="Tênis">Tênis</option>
+                </select>
+            </td>
+            <td>
+                <label for="">Investimentos:</label>
+                <select name="Investimentos" size="1">
+                    <option value="Poupança">Poupança</option>
+                    <option value="CDB">CDB</option>
+                    <option value="Tesouro Direito">Tesouro Direito</option>
+                    <option value="Fundos imobiliários">Fundos imobiliários</option>
+                    <option value="CDI">CDI</option>
+                    <option value="DEBÊNTURES">DEBÊNTURES</option>
+                    <option value="Criptomoedas">Criptomoedas</option>
+                    <option value="Ações">Ações</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Escolha uma cor:</label>
+            <input type="color" name="cores" value="">
+            </td>
+            <td><label for="">Selecione um arquivo:</label>
+                <input type="file" name="arquivo-escolhido" id="Arquivo">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><label for="">Data e Hora de envio:</label> 
+                <input type="datetime-local" name="dtlocal" id="dtloc">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Enviar"></td>
+            <td><input type="reset" value="Limpar"></td>
         </tr>
     </table>
     </form>
