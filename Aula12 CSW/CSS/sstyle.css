@@ -85,27 +85,25 @@
         }
 
         .box2 button{
-            padding: 20px 20px;
+            padding: 20px 26px;
             border-radius: 30px;
             text-decoration:none;
             margin-top: 20px;
             cursor: pointer;
             border: 0;
-            margin-left: 56px;
+            margin-left: 20px;
             background-color: rgba(255, 255, 255, 0.192);
             letter-spacing: 1.5px;
             font-size: 15px;
-        }
-
-        .box2 p{
             color: white;
         }
 
         .box2 a{
-            color: inherit;
+            color: white;
             text-decoration: none;
         }
         
-        .box2 button::before, button::after{
-            content: 'oi';
+        .box2 button::before, .box2 button::after{
+            content: '✶';
+            color: white;
         }
