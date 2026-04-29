@@ -28,7 +28,7 @@
             text-align: center;
             color: rgb(6, 33, 85);
             background-color: rgba(0, 79, 197, 0.747);
-            width: 630px;
+            width: 633px;
             padding: 35px;
             border-radius: 15px;
             box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.459);
@@ -36,6 +36,7 @@
 
         .mnem img{
             border-radius: 10px;
+            width: 567px;
         }
 
         .box{
@@ -104,11 +105,13 @@
             margin-top: 20px;
             cursor: pointer;
             border: 0;
-            margin-left: 20px;
+            margin-left: 24px;
             background-color: rgba(255, 255, 255, 0.192);
             letter-spacing: 1.5px;
             font-size: 15px;
             color: white;
+            transition: .67s;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         .box2 a{
@@ -116,11 +119,13 @@
             text-decoration: none;
         }
         
-        .box2 button::before, .box2 button::after{
-            content: '✶';
-            color: white;
+        .box2 button::before{
+            content: '♫ ';
         }
-
+        .box2 button::after{
+            content: '✶';
+        }
+        
         .box2 button:hover{
             background-color: transparent;
             border: 1.5px solid rgb(255, 255, 255);
@@ -129,3 +134,21 @@
             letter-spacing: 2.3px;
         }
         
+        #spotify:hover{
+            color: rgb(8, 177, 2);
+        }
+
+         #youtube:hover{
+            color: rgb(255, 69, 69);
+            
+        }
+        
+        #amazon:hover{
+            color: rgb(255, 217, 0);
+            transition: .67s;
+        }
+
+        .box2 button:hover .music{
+            color: rgb(0, 0, 0);
+            transition: .8s;
+        }
