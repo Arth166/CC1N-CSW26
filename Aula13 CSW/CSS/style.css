@@ -21,11 +21,11 @@ body{
     padding: 20px;
 }
 
+
 .container img{
     border-radius: 15px;
 }
-
-.container2{
+.container22{
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -36,10 +36,34 @@ body{
     padding: 20px;
     align-items: center;
     color: aliceblue; 
-    
     box-shadow: 10px 10px 50px 0px black;
 }
 
+.container2{
+    display: flex;
+    flex-direction: column; /* coloca os elementos em coluna */
+    margin: auto;
+    background-color: rgb(36,36,36);
+    width: 567px;
+    height: 180px;
+    border-top: 2px solid rgb(221, 221, 221);
+    padding: 20px;
+    color: aliceblue; 
+    box-shadow: 10px 10px 50px 0px black;
+}
+
+.titulo-exercicio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.linha-itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
 .item1{
     background-color: rgb(0, 110, 255);
     border-radius: 20px;
@@ -78,6 +102,7 @@ body{
 
 .container3{
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin: auto;
     justify-content: space-around;
@@ -96,6 +121,7 @@ body{
     background-color: rgb(71, 168, 201);
     text-align: center;
     border-radius: 20px;
+    margin: 5px;
 }
 
 .item5{
@@ -104,6 +130,7 @@ body{
     background-color: rgb(153, 0, 255);
     text-align: center;
     border-radius: 20px;
+    margin: 5px;
 }
 
 .item5:active{
@@ -112,9 +139,9 @@ body{
 
 .container4{
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin: auto;
-    justify-content: flex-start;
     background-color: rgb(36,36,36);
     width: 567px;
     border-top: 2px solid rgb(221, 221, 221);
@@ -126,11 +153,19 @@ body{
     box-shadow: 15px 25px 50px 0px black;
 }
 
+.linha-itens2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
 .item6{
     padding: 20px;
     background-color: rgb(71, 168, 201);
     text-align: center;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .item7{
