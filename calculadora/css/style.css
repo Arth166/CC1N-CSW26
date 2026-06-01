@@ -2,43 +2,82 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.calculadora{
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+}
+
+#fundo-calc{
     display: flex;
     margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+    background-image: url(../image/rock.webp);
+    width: 900px;
+    height:350px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.calculadora{
+    display: flex;
     flex-direction: column;
     background-color: rgb(100, 100, 100);
     padding: 10px;
     width: 300px;
     height: 230px;
     border-radius: 7px;
-    box-shadow: 5px 5px 50px 0 black;
-    justify-content: space-between;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.calculadora2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 100, 100);
+    padding: 10px;
+    width: 300px;
+    height: 230px;
+    border-radius: 7px;
+    justify-content: center;
     color: white;
     text-align: center;
 }
 
 .ano{
     display: flex;
-    margin: auto;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.253);
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 10px;
     width: 250px;
     border-radius: 7px;
     align-items: center;
+    margin: auto;
+}
+
+.ano2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    align-items: center;
+    margin: auto;
 }
 
 .resultado{
     display: flex;
-    margin: auto;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.253);
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 10px;
     width: 250px;
     border-radius: 7px;
     align-items: center;
+    margin: auto;
 }
 
 #CalculoInput{
