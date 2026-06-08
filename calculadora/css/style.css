@@ -1,83 +1,88 @@
+@charset "UTF-8";
+  
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(32, 32, 32);
-    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #C22ED0, #5FFAE0);
 }
 
-#fundo-calc{
+#calculadora{
     display: flex;
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 15px; 
+    flex-direction: column;
+    background-color: rgb(100, 100, 100);
+    padding: 10px;
+    width: 300px;
+    height: 290px;
+    border-radius: 7px;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+
+#calculadora2{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
     background-image: url(../image/rock.webp);
-    width: 900px;
-    height:350px;
-    margin-top: 20px;
-    border-radius: 16px;
-}
-
-.calculadora{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(100, 100, 100);
+    background-position: top center;
     padding: 10px;
-    width: 300px;
-    height: 230px;
+    width: 450px;
+    height: 390px;
     border-radius: 7px;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
     text-align: center;
 }
 
-.calculadora2{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(100, 100, 100);
-    padding: 10px;
-    width: 300px;
-    height: 230px;
-    border-radius: 7px;
-    justify-content: center;
-    color: white;
-    text-align: center;
+#calculadora2 h1{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, rgb(199, 2, 2) 25%, rgb(255, 102, 0), rgb(255, 238, 0) 77%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
-.ano{
+.tudo{
     display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.253);
-    color: white;
-    padding: 10px;
-    width: 250px;
-    border-radius: 7px;
-    align-items: center;
     margin: auto;
+    width: 900px;
 }
 
+#dia{
+    width: 220px;
+}
+    
 .ano2{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.253);
-    color: white;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 7px;
     align-items: center;
-    margin: auto;
 }
 
-.resultado{
+.ano2 h4{
+    text-transform: uppercase;
+}
+
+
+.resultado2{
     display: flex;
+    margin: auto;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.253);
-    color: white;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgb(255, 255, 255);
     width: 250px;
     border-radius: 7px;
     align-items: center;
-    margin: auto;
 }
 
 #CalculoInput{
